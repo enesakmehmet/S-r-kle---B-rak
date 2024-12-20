@@ -1,0 +1,19 @@
+/* Sürüklenebilir kutu */
+#drag1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+    cursor: grab;
+}
+
+/* Bırakma alanı */
+#dropzone {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
